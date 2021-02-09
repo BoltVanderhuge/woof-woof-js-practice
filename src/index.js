@@ -9,8 +9,6 @@ function displayPups(){
     .then(pupsArray => {
         pupsArray.forEach(pup => renderPupBar(pup))
     })
-    
-    
 }
 
 function renderPupBar(pup){
